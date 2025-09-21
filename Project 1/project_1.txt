@@ -1,0 +1,21 @@
+1. Clone Repo 
+git clone https://github.com/kabetel08/Computational-Social-Science-Projects.git
+
+2. Create a folder called "Project 1"
+cd Computational-Social-Science-Projects
+mkdir "Project 1"
+ls
+
+3. Create a text file in the Project 1 folder. 
+cd Project\ 1
+touch project_1.txt
+ls
+
+4. Edit the text file to include all commands done so far. 
+vim project_1.txt 
+
+4.b. Add git add, commit, and push chamges
+git add . 
+git commit -m "created a project 1 folder + initial file "
+git push origin main
+
